@@ -18,7 +18,7 @@ import 'dotenv/config';
 
       const newPath = format({
         dir: DIR,
-        name: icon.concat('-logo'),
+        name: icon,
         ext: '.svg',
       });
 

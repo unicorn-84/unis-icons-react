@@ -1,8 +1,8 @@
-# 🦄 unis-icons
+# 🦄 unis-icons-react
 
 > SVG-based ReactJS icon components.
 
-[![version](https://img.shields.io/npm/v/@web-uni/unis-icons)](https://www.npmjs.com/package/@web-uni/unis-icons) [![build workflow](https://github.com/unicorn-84/unis-icons/actions/workflows/build.yml/badge.svg)](https://github.com/unicorn-84/unis-icons/actions/workflows/build.yml) [![MIT license](https://img.shields.io/github/license/unicorn-84/unis-icons)](https://github.com/unicorn-84/unis-icons/blob/master/LICENSE) [![semantic-release: angular](https://img.shields.io/badge/semantic--release-angular-e10079?logo=semantic-release)](https://github.com/semantic-release/semantic-release)
+[![version](https://img.shields.io/npm/v/unis-icons-react)](https://www.npmjs.com/package/unis-icons-react) [![build workflow](https://github.com/unicorn-84/unis-icons-react/actions/workflows/build.yml/badge.svg)](https://github.com/unicorn-84/unis-icons-react/actions/workflows/build.yml) [![MIT license](https://img.shields.io/github/license/unicorn-84/unis-icons-react)](https://github.com/unicorn-84/unis-icons-react/blob/master/LICENSE) [![semantic-release: angular](https://img.shields.io/badge/semantic--release-angular-e10079?logo=semantic-release)](https://github.com/semantic-release/semantic-release)
 
 ## What it is
 
@@ -16,19 +16,19 @@ Based on [🧜‍♀️ Moja UI - FREE Top UI Kit & Design system](https://www.f
 Using npm:
 
 ```bash
-npm install @web-uni/unis-icons
+npm install unis-icons-react
 ```
 
 Using yarn:
 
 ```bash
-yarn add @web-uni/unis-icons
+yarn add unis-icons-react
 ```
 
 ### Usage
 
 ```js
-import { ArrowArcLeft } from '@web-uni/unis-icons';
+import { ArrowArcLeft } from 'unis-icons-react';
 
 const App = () => {
   return <ArrowArcLeft />;
@@ -37,16 +37,12 @@ const App = () => {
 
 ## Requirements
 
-- The **unis-icons** library is ESM.
+- The **unis-icons-react** library is ESM.
 
-- The **unis-icons** library requires [Node.js](https://nodejs.org) version 14 or higher.
+- The **unis-icons-react** library requires [Node.js](https://nodejs.org) version 14 or higher.
 
-- The **unis-icons** library requires [ReactJS](https://reactjs.org) version 16 or higher.
-
-## Documentation
-
-Check out [the documentation website](https://unicorn-84.github.io/unis-icons).
+- The **unis-icons-react** library requires [ReactJS](https://reactjs.org) version 16 or higher.
 
 ## License
 
-[MIT](https://github.com/unicorn-84/unis-icons/blob/master/LICENSE)
+[MIT](https://github.com/unicorn-84/unis-icons-react/blob/master/LICENSE)

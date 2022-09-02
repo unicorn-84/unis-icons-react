@@ -1,11 +1,11 @@
 import { readdir, writeFile } from 'node:fs/promises';
 import { join, dirname, basename } from 'node:path';
 import { fileURLToPath } from 'node:url';
-
-const DIR = 'assets/icons/functional/arrows';
+import 'dotenv/config';
 
 (async function createDemo() {
   try {
+    const DIR = process.env.COMPONENTS_DIR;
     const __filename = fileURLToPath(import.meta.url);
     const __dirname = dirname(__filename);
 
@@ -14,7 +14,8 @@ const DIR = 'assets/icons/functional/arrows';
     let components = '';
 
     for (const file of files) {
-      components += `<UnisIcons.${basename(file, '.svg')} />\n`;
+      if (file === 'index.ts') continue;
+      components += `<UnisIcons.${basename(file, '.tsx')} />\n`;
     }
 
     const content = `import * as React from 'react';

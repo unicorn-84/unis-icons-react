@@ -1,5 +1,5 @@
 {
-  "name": "@web-uni/unis-icons",
+  "name": "unis-icons-react",
   "version": "0.0.0-development",
   "description": "SVG-based ReactJS icon components",
   "type": "module",
@@ -21,12 +21,11 @@
   "publishConfig": {
     "access": "public"
   },
-  "repository": "git@github.com:unicorn-84/unis-icons.git",
+  "repository": "git@github.com:unicorn-84/unis-icons-react.git",
   "author": "unicorn-84 <unicorn-84@ya.ru> (https://github.com/unicorn-84)",
   "bugs": {
-    "url": "https://github.com/unicorn-84/unis-icons/issues"
+    "url": "https://github.com/unicorn-84/unis-icons-react/issues"
   },
-  "homepage": "https://unicorn-84.github.io/unis-icons",
   "license": "MIT",
   "private": false,
   "scripts": {
@@ -40,8 +39,9 @@
     "semantic-release": "semantic-release",
     "cm": "cz",
     "prepare": "husky install",
-    "svgr": "svgr --config-file ./src/svgr/svgr-config.json --index-template ./src/svgr/svgr-index-template.cjs --template ./src/svgr/svgr-template.cjs -- assets/icons/functional/arrows",
-    "generate": "npm run svgr && node utils/createDemo && npx prettier ./demo/src/App.tsx -w"
+    "svgr": "svgr --config-file ./src/svgr/.svgrrc.cjs -- $ICONS_DIR",
+    "generate": "dotenv-run-script svgr && node ./utils/createDemo && npx prettier ./demo/src/App.tsx -w",
+    "make": "node ./utils/editIcons && yarn generate"
   },
   "devDependencies": {
     "@svgr/cli": "6.3.1",
@@ -49,18 +49,22 @@
     "@types/react-dom": "18.0.6",
     "@typescript-eslint/eslint-plugin": "5.31.0",
     "@typescript-eslint/parser": "5.31.0",
+    "change-case": "4.1.2",
     "cz-conventional-changelog": "3.3.0",
+    "dotenv": "16.0.1",
+    "dotenv-run-script": "0.2.0",
     "eslint": "8.20.0",
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-jsx-a11y": "6.6.1",
     "eslint-plugin-prettier": "4.2.1",
     "eslint-plugin-react": "7.30.1",
     "husky": "8.0.1",
+    "latinize": "0.5.0",
     "prettier": "2.7.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "rimraf": "3.0.2",
-    "semantic-release": "^19.0.3",
+    "semantic-release": "^19.0.5",
     "svgo": "2.8.0",
     "typescript": "4.7.4"
   },
@@ -68,5 +72,8 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "dependencies": {
+    "camelcase": "7.0.0"
   }
 }

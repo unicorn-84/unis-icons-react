@@ -5294,6 +5294,11 @@ unique-string@^2.0.0:
   dependencies:
     crypto-random-string "^2.0.0"
 
+unis-icons@1.5.1:
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/unis-icons/-/unis-icons-1.5.1.tgz#8fdcd2f2759c9ca0c5f4ec990928d40648201274"
+  integrity sha512-oAOZR8RbEcUGt3noy/se92W2FW1Wu7ox4Go2Ve1PvOjsgfFjoe4Iiel54RM5IY2xIjt4UWCY90RrO93/jmwxDw==
+
 universal-user-agent@^6.0.0:
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/universal-user-agent/-/universal-user-agent-6.0.0.tgz#3381f8503b251c0d9cd21bc1de939ec9df5480ee"

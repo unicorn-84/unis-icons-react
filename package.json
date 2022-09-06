@@ -40,8 +40,7 @@
     "cm": "cz",
     "prepare": "husky install",
     "svgr": "svgr --config-file ./src/svgr/.svgrrc.cjs -- $ICONS_DIR",
-    "generate": "dotenv-run-script svgr && node ./utils/createDemo && npx prettier ./demo/src/App.tsx -w",
-    "make": "node ./utils/editIcons && yarn generate"
+    "generate": "dotenv-run-script svgr && node ./utils/createDemo && npx prettier ./demo/src/App.tsx -w"
   },
   "devDependencies": {
     "@svgr/cli": "6.3.1",
@@ -49,7 +48,6 @@
     "@types/react-dom": "18.0.6",
     "@typescript-eslint/eslint-plugin": "5.31.0",
     "@typescript-eslint/parser": "5.31.0",
-    "change-case": "4.1.2",
     "cz-conventional-changelog": "3.3.0",
     "dotenv": "16.0.1",
     "dotenv-run-script": "0.2.0",
@@ -59,7 +57,6 @@
     "eslint-plugin-prettier": "4.2.1",
     "eslint-plugin-react": "7.30.1",
     "husky": "8.0.1",
-    "latinize": "0.5.0",
     "prettier": "2.7.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",

@@ -4,9 +4,9 @@ import { SVGProps } from 'react';
 const SvgTypescriptIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={48}
-    height={48}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 48 48"
     {...props}
   >
     <path fill="#007ACC" d="M6 24v18h36V6H6v18Z" />

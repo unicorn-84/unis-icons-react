@@ -6,9 +6,9 @@ const SvgAmericanNationalStandardsInstituteLogo = (
 ) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={171}
-    height={69}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 171 69"
     {...props}
   >
     <path

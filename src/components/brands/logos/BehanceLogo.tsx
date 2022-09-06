@@ -4,9 +4,9 @@ import { SVGProps } from 'react';
 const SvgBehanceLogo = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={242}
-    height={50}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 242 50"
     {...props}
   >
     <path

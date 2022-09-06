@@ -4,9 +4,9 @@ import { SVGProps } from 'react';
 const SvgGoogleScholarIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={48}
-    height={48}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 48 48"
     {...props}
   >
     <path fill="#4285F4" d="M24 34.907 6 20.25 24 6v28.907Z" />

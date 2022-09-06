@@ -4,20 +4,19 @@ import { SVGProps } from 'react';
 const SvgMaskHappy = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={32}
-    height={32}
     fill="none"
+    stroke="currentColor"
+    aria-hidden="true"
+    viewBox="0 0 32 32"
     {...props}
   >
     <path
-      stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
       d="M18.262 16a3 3 0 0 1 4.476 0M9.263 16a3 3 0 0 1 4.475 0m5.575 6a5.987 5.987 0 0 1-6.625 0"
     />
     <path
-      stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}

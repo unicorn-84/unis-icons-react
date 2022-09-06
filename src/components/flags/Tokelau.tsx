@@ -4,9 +4,9 @@ import { SVGProps } from 'react';
 const SvgTokelau = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={42}
-    height={30}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 42 30"
     {...props}
   >
     <g filter="url(#tokelau_svg__a)">
@@ -49,7 +49,7 @@ const SvgTokelau = (props: SVGProps<SVGSVGElement>) => (
               clipRule="evenodd"
             />
           </mask>
-          <g mask="url(#tokelau_svg__d)" fillRule="evenodd" clipRule="evenodd">
+          <g fillRule="evenodd" clipRule="evenodd" mask="url(#tokelau_svg__d)">
             <path
               fill="#F7FCFF"
               d="m6.706 12.063-.996.548.387-.92-.847-.696h1.027l.43-.995.327.995h1.029l-.742.697.363.92-.978-.549Zm4.5-4-.996.548.387-.92-.847-.696h1.027l.43-.995.327.995h1.028l-.74.696.362.92-.978-.548Zm4.5 4-.996.548.387-.92-.847-.696h1.027l.43-.995.327.995h1.029l-.742.697.363.92-.978-.549Zm-4.5 4-.996.548.387-.92-.847-.696h1.027l.43-.995.327.995h1.028l-.74.697.362.92-.978-.549Z"

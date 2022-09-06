@@ -4,9 +4,9 @@ import { SVGProps } from 'react';
 const SvgGabon = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={42}
-    height={30}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 42 30"
     {...props}
   >
     <g filter="url(#gabon_svg__a)">
@@ -24,7 +24,7 @@ const SvgGabon = (props: SVGProps<SVGSVGElement>) => (
         >
           <path fill="#fff" d="M3 2h36v24H3z" />
         </mask>
-        <g mask="url(#gabon_svg__c)" fillRule="evenodd" clipRule="evenodd">
+        <g fillRule="evenodd" clipRule="evenodd" mask="url(#gabon_svg__c)">
           <path fill="#40A8FF" d="M3 18h36v8H3v-8Z" />
           <path fill="#FECA00" d="M3 10h36v8H3v-8Z" />
           <path fill="#73BE4A" d="M3 2h36v8H3V2Z" />

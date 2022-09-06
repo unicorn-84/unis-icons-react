@@ -4,20 +4,19 @@ import { SVGProps } from 'react';
 const SvgClockClockwise = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={32}
-    height={32}
     fill="none"
+    stroke="currentColor"
+    aria-hidden="true"
+    viewBox="0 0 32 32"
     {...props}
   >
     <path
-      stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
       d="M16 10v6m5.2 3L16 16m7.025-3.537h5v-5"
     />
     <path
-      stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}

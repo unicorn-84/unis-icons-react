@@ -5,9 +5,9 @@ const SvgMailchimpIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlnsXlink="http://www.w3.org/1999/xlink"
-    width={48}
-    height={48}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 48 48"
     {...props}
   >
     <path fill="url(#mailchimp-icon_svg__a)" d="M9.502 8h28.996v32H9.502z" />

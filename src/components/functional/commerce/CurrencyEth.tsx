@@ -4,17 +4,18 @@ import { SVGProps } from 'react';
 const SvgCurrencyEth = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={32}
-    height={32}
     fill="none"
+    stroke="currentColor"
+    aria-hidden="true"
+    viewBox="0 0 32 32"
     {...props}
   >
     <g
-      clipPath="url(#currency-eth_svg__a)"
-      stroke="currentColor"
+      stroke="#101828"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
+      clipPath="url(#currency-eth_svg__a)"
     >
       <path d="M16 2v28m11-14-11 5-11-5" />
       <path d="m16 2 11 14-11 14L5 16 16 2Z" />

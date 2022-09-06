@@ -4,9 +4,9 @@ import { SVGProps } from 'react';
 const SvgAndroidOldLogo = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={207}
-    height={57}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 207 57"
     {...props}
   >
     <path

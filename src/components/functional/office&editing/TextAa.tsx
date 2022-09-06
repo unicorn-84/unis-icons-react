@@ -4,17 +4,18 @@ import { SVGProps } from 'react';
 const SvgTextAa = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={32}
-    height={32}
     fill="none"
+    stroke="currentColor"
+    aria-hidden="true"
+    viewBox="0 0 32 32"
     {...props}
   >
     <g
-      clipPath="url(#text-aa_svg__a)"
-      stroke="currentColor"
+      stroke="#101828"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
+      clipPath="url(#text-aa_svg__a)"
     >
       <path d="M19 24 10 7 1 24m25 .363c2.21 0 4-1.567 4-3.5s-1.79-3.5-4-3.5-4 1.567-4 3.5 1.79 3.5 4 3.5Z" />
       <path d="M23 14.05a4.262 4.262 0 0 1 3-1.188c2.212 0 4 1.563 4 3.5V24m-13.65-5H3.65" />

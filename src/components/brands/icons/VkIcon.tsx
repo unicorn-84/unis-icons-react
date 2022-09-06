@@ -4,9 +4,9 @@ import { SVGProps } from 'react';
 const SvgVkIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={48}
-    height={48}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 48 48"
     {...props}
   >
     <rect width={42} height={42} x={3} y={3} fill="#2789F6" rx={6} />

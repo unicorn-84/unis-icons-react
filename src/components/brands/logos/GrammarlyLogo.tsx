@@ -4,9 +4,9 @@ import { SVGProps } from 'react';
 const SvgGrammarlyLogo = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={231}
-    height={59}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 231 59"
     {...props}
   >
     <path

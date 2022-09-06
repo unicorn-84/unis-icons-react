@@ -5,9 +5,9 @@ const SvgPayoneerLogo = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlnsXlink="http://www.w3.org/1999/xlink"
-    width={275}
-    height={75}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 275 75"
     {...props}
   >
     <path

@@ -4,9 +4,9 @@ import { SVGProps } from 'react';
 const SvgKotlinIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={48}
-    height={48}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 48 48"
     {...props}
   >
     <path fill="url(#kotlin-icon_svg__a)" d="m6 42 18.06-18.06L42 42H6Z" />

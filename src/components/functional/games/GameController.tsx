@@ -4,20 +4,19 @@ import { SVGProps } from 'react';
 const SvgGameController = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={32}
-    height={32}
     fill="none"
+    stroke="currentColor"
+    aria-hidden="true"
+    viewBox="0 0 32 32"
     {...props}
   >
     <path
-      stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
       d="M19 13.5h4m-14 0h4m-2-2v4m10.5-8.537L10.5 7a6.513 6.513 0 0 0-6.4 5.375v0L2.05 22.887a3.5 3.5 0 0 0 5.925 3.088v0l5.4-5.975 8.125-.038a6.5 6.5 0 1 0 0-13v0Z"
     />
     <path
-      stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}

@@ -4,9 +4,9 @@ import { SVGProps } from 'react';
 const SvgHaikuLogo = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={218}
-    height={63}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 218 63"
     {...props}
   >
     <path

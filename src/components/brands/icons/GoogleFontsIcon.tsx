@@ -4,9 +4,9 @@ import { SVGProps } from 'react';
 const SvgGoogleFontsIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={48}
-    height={48}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 48 48"
     {...props}
   >
     <path fill="#FBBC04" d="m6 37.8 17.4-27.6h10.8v3.84l-15 23.76" />

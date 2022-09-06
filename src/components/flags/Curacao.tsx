@@ -4,9 +4,9 @@ import { SVGProps } from 'react';
 const SvgCuracao = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={42}
-    height={30}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 42 30"
     {...props}
   >
     <g filter="url(#curacao_svg__a)">
@@ -49,7 +49,7 @@ const SvgCuracao = (props: SVGProps<SVGSVGElement>) => (
               clipRule="evenodd"
             />
           </mask>
-          <g mask="url(#curacao_svg__d)" fillRule="evenodd" clipRule="evenodd">
+          <g fillRule="evenodd" clipRule="evenodd" mask="url(#curacao_svg__d)">
             <path
               fill="#F7FCFF"
               d="M7.786 8.15 5.55 9.198 6.63 7.33 5.25 5.963l1.714-.056L7.786 4l.628 1.907 2.005.056-1.444 1.368.916 1.868-2.105-1.05Zm7.985 4.927-2.761 1.028 1.083-2.577-2.4-1.729h2.876l1.202-2.787.918 2.787h2.881l-2.047 1.73 1.016 2.576-2.768-1.028Z"

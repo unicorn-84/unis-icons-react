@@ -4,9 +4,9 @@ import { SVGProps } from 'react';
 const SvgTechCrunchIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={48}
-    height={48}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 48 48"
     {...props}
   >
     <circle cx={20} cy={23} r={14} fill="url(#tech-crunch-icon_svg__a)" />

@@ -4,9 +4,9 @@ import { SVGProps } from 'react';
 const SvgEthereumLogo = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={154}
-    height={105}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 154 105"
     {...props}
   >
     <g clipPath="url(#ethereum-logo_svg__a)">

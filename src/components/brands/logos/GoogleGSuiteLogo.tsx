@@ -4,9 +4,9 @@ import { SVGProps } from 'react';
 const SvgGoogleGSuiteLogo = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={223}
-    height={61}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 223 61"
     {...props}
   >
     <path

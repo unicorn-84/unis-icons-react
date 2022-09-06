@@ -4,9 +4,9 @@ import { SVGProps } from 'react';
 const SvgEventbriteLogo = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={260}
-    height={52}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 260 52"
     {...props}
   >
     <path

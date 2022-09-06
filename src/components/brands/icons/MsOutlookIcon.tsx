@@ -4,9 +4,9 @@ import { SVGProps } from 'react';
 const SvgMsOutlookIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={48}
-    height={48}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 48 48"
     {...props}
   >
     <rect width={20} height={28} x={18} y={10} fill="#1066B5" rx={2} />

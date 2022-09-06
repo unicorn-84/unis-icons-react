@@ -4,9 +4,9 @@ import { SVGProps } from 'react';
 const SvgSofortLogo = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={114}
-    height={76}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 114 76"
     {...props}
   >
     <g clipPath="url(#sofort-logo_svg__a)">

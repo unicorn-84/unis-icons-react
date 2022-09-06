@@ -4,17 +4,18 @@ import { SVGProps } from 'react';
 const SvgGraduationCap = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={32}
-    height={32}
     fill="none"
+    stroke="currentColor"
+    aria-hidden="true"
+    viewBox="0 0 32 32"
     {...props}
   >
     <g
-      clipPath="url(#graduation-cap_svg__a)"
-      stroke="currentColor"
+      stroke="#101828"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
+      clipPath="url(#graduation-cap_svg__a)"
     >
       <path d="m1 12 15-8 15 8-15 8-15-8Z" />
       <path d="M23.5 30V16L16 12" />

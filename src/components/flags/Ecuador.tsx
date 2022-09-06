@@ -4,9 +4,9 @@ import { SVGProps } from 'react';
 const SvgEcuador = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={42}
-    height={30}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 42 30"
     {...props}
   >
     <g filter="url(#ecuador_svg__a)">
@@ -174,9 +174,9 @@ const SvgEcuador = (props: SVGProps<SVGSVGElement>) => (
               />
             </mask>
             <g
-              mask="url(#ecuador_svg__e)"
               fillRule="evenodd"
               clipRule="evenodd"
+              mask="url(#ecuador_svg__e)"
             >
               <path
                 fill="#6FAE21"

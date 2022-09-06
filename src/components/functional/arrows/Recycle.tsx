@@ -4,20 +4,19 @@ import { SVGProps } from 'react';
 const SvgRecycle = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={32}
-    height={32}
     fill="none"
+    stroke="currentColor"
+    aria-hidden="true"
+    viewBox="0 0 32 32"
     {...props}
   >
     <path
-      stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
       d="m19 29-3-3 3-3m5.325-13.6-1.1 4.1-4.088-1.1m-9.262 5.2-1.1-4.1-4.1 1.1"
     />
     <path
-      stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}

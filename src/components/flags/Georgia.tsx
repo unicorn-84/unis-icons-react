@@ -4,9 +4,9 @@ import { SVGProps } from 'react';
 const SvgGeorgia = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={42}
-    height={30}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 42 30"
     {...props}
   >
     <g filter="url(#georgia_svg__a)">
@@ -50,10 +50,10 @@ const SvgGeorgia = (props: SVGProps<SVGSVGElement>) => (
             />
           </mask>
           <g
-            mask="url(#georgia_svg__d)"
             fill="#E31D1C"
             fillRule="evenodd"
             clipRule="evenodd"
+            mask="url(#georgia_svg__d)"
           >
             <path d="M18.75 2h4.5v10H39v4H23.25v10h-4.5V16H3v-4h15.75V2Z" />
             <path d="M14.249 19.222 16.725 19v2s-2.476-.138-2.476-.098c0 .04.226 2.098.226 2.098h-2.25l.18-2h-2.43v-2l2.43.222-.18-2.222h2.25l-.226 2.222Zm0-12L16.725 7v2s-2.476-.138-2.476-.098c0 .04.226 2.098.226 2.098h-2.25l.18-2h-2.43V7l2.43.222L12.225 5h2.25l-.226 2.222Zm15.75 0L32.475 7v2S30 8.862 30 8.902c0 .04.226 2.098.226 2.098h-2.25l.18-2h-2.43V7l2.43.222L27.975 5h2.25L30 7.222Zm0 12L32.475 19v2S30 20.862 30 20.902c0 .04.226 2.098.226 2.098h-2.25l.18-2h-2.43v-2l2.43.222-.18-2.222h2.25L30 19.222Z" />

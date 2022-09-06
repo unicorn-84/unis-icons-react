@@ -4,9 +4,9 @@ import { SVGProps } from 'react';
 const SvgMediumAltIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={48}
-    height={48}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 48 48"
     {...props}
   >
     <circle cx={24} cy={24} r={21} fill="#12100E" />

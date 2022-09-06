@@ -4,9 +4,9 @@ import { SVGProps } from 'react';
 const SvgKlarnaAltLogo = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={226}
-    height={126}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 226 126"
     {...props}
   >
     <g clipPath="url(#klarna-alt-logo_svg__a)">

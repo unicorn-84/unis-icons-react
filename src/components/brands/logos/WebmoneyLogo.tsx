@@ -4,9 +4,9 @@ import { SVGProps } from 'react';
 const SvgWebmoneyLogo = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={116}
-    height={76}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 116 76"
     {...props}
   >
     <path

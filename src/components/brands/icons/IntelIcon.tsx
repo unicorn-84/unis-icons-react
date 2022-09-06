@@ -4,9 +4,9 @@ import { SVGProps } from 'react';
 const SvgIntelIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={48}
-    height={48}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 48 48"
     {...props}
   >
     <path fill="#0068B5" d="M8 17h2.53v2.53H8z" />

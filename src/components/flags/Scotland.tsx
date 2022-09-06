@@ -4,9 +4,9 @@ import { SVGProps } from 'react';
 const SvgScotland = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={42}
-    height={30}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 42 30"
     {...props}
   >
     <g filter="url(#scotland_svg__a)">
@@ -49,7 +49,7 @@ const SvgScotland = (props: SVGProps<SVGSVGElement>) => (
               clipRule="evenodd"
             />
           </mask>
-          <g mask="url(#scotland_svg__d)" fill="#fff">
+          <g fill="#fff" mask="url(#scotland_svg__d)">
             <path d="m4.35 27.6 36-24-2.7-3.2-36 24 2.7 3.2Z" />
             <path d="m1.65 3.6 36 24 2.7-3.2-36-24-2.7 3.2Z" />
           </g>

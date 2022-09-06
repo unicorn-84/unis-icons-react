@@ -4,15 +4,16 @@ import { SVGProps } from 'react';
 const SvgNumberCircleNine = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={32}
-    height={32}
     fill="none"
+    stroke="currentColor"
+    aria-hidden="true"
+    viewBox="0 0 32 32"
     {...props}
   >
     <g
-      clipPath="url(#number-circle-nine_svg__a)"
-      stroke="currentColor"
+      stroke="#101828"
       strokeWidth={2}
+      clipPath="url(#number-circle-nine_svg__a)"
     >
       <path
         strokeMiterlimit={10}

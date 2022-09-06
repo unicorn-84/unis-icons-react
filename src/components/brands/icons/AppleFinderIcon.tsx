@@ -4,9 +4,9 @@ import { SVGProps } from 'react';
 const SvgAppleFinderIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={48}
-    height={48}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 48 48"
     {...props}
   >
     <g filter="url(#apple-finder-icon_svg__a)">

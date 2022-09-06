@@ -6,9 +6,9 @@ const SvgFisherCenterForAlzheimerSResearchFoundationLogo = (
 ) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={116}
-    height={116}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 116 116"
     {...props}
   >
     <path fill="#0081C6" d="M113.1 2.9H2.9v110.2h110.2V2.9Z" />

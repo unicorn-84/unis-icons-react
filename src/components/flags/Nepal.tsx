@@ -4,9 +4,9 @@ import { SVGProps } from 'react';
 const SvgNepal = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={42}
-    height={30}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 42 30"
     {...props}
   >
     <g filter="url(#nepal_svg__a)">
@@ -34,7 +34,7 @@ const SvgNepal = (props: SVGProps<SVGSVGElement>) => (
             d="M16.135 14.342 26.595 25.5H3.5V2.798L25.573 13.5H15.346l.79.842Z"
           />
         </mask>
-        <g mask="url(#nepal_svg__c)" fillRule="evenodd" clipRule="evenodd">
+        <g fillRule="evenodd" clipRule="evenodd" mask="url(#nepal_svg__c)">
           <path
             fill="#F7FCFF"
             d="M9.558 22.01 8.18 23.6l-.064-2.006-2.166.566 1.275-1.657-2.127-.673 2.127-.674-1.275-1.657 2.166.567.064-2.007 1.378 1.59 1.379-1.59.063 2.006 2.167-.566-1.276 1.657 2.128.674-2.128.674 1.276 1.656L11 21.594l-.063 2.006-1.379-1.59Zm-.033-11.871-.72.83-.033-1.048-1.132.296.666-.865L7.196 9l1.11-.352-.666-.865 1.132.296.033-1.048.72.83.72-.83.033 1.048 1.131-.296-.666.865L11.854 9l-1.11.352.665.865-1.131-.296-.033 1.048-.72-.83Z"

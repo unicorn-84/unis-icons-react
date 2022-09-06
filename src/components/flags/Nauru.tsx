@@ -4,9 +4,9 @@ import { SVGProps } from 'react';
 const SvgNauru = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={42}
-    height={30}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 42 30"
     {...props}
   >
     <g filter="url(#nauru_svg__a)">
@@ -35,7 +35,7 @@ const SvgNauru = (props: SVGProps<SVGSVGElement>) => (
             clipRule="evenodd"
           />
         </mask>
-        <g mask="url(#nauru_svg__c)" fillRule="evenodd" clipRule="evenodd">
+        <g fillRule="evenodd" clipRule="evenodd" mask="url(#nauru_svg__c)">
           <path fill="#FECA00" d="M3 10v4h36v-4H3Z" />
           <path
             fill="#F7FCFF"

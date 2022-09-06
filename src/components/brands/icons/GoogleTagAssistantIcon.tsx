@@ -4,9 +4,9 @@ import { SVGProps } from 'react';
 const SvgGoogleTagAssistantIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={48}
-    height={48}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 48 48"
     {...props}
   >
     <path fill="#fff" d="M19.136 13.179H41.79v21.714H19.136V13.179Z" />

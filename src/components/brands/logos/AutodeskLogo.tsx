@@ -4,9 +4,9 @@ import { SVGProps } from 'react';
 const SvgAutodeskLogo = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={250}
-    height={47}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 250 47"
     {...props}
   >
     <path

@@ -4,9 +4,9 @@ import { SVGProps } from 'react';
 const SvgAmericanCancerSocietyLogo = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={134}
-    height={88}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 134 88"
     {...props}
   >
     <path

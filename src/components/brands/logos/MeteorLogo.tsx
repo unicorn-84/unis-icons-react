@@ -4,9 +4,9 @@ import { SVGProps } from 'react';
 const SvgMeteorLogo = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={211}
-    height={56}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 211 56"
     {...props}
   >
     <path

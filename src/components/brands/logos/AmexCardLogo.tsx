@@ -4,9 +4,9 @@ import { SVGProps } from 'react';
 const SvgAmexCardLogo = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={119}
-    height={86}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 119 86"
     {...props}
   >
     <g clipPath="url(#amex-card-logo_svg__a)">

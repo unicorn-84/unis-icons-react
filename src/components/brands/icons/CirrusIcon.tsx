@@ -4,9 +4,9 @@ import { SVGProps } from 'react';
 const SvgCirrusIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={48}
-    height={48}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 48 48"
     {...props}
   >
     <path fill="#2271CE" d="M29.409 30.571H18.593V11.133h10.816v19.438Z" />

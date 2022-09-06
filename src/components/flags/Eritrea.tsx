@@ -4,9 +4,9 @@ import { SVGProps } from 'react';
 const SvgEritrea = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={42}
-    height={30}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 42 30"
     {...props}
   >
     <g filter="url(#eritrea_svg__a)">
@@ -24,7 +24,7 @@ const SvgEritrea = (props: SVGProps<SVGSVGElement>) => (
         >
           <path fill="#fff" d="M3 2h36v24H3z" />
         </mask>
-        <g mask="url(#eritrea_svg__c)" fillRule="evenodd" clipRule="evenodd">
+        <g fillRule="evenodd" clipRule="evenodd" mask="url(#eritrea_svg__c)">
           <path fill="#43B764" d="M3 2v12h36V2H3Z" />
           <path fill="#B4D7F4" d="M3 14v12h36V14H3Z" />
           <path fill="#BE0027" d="m3 2 34.941 12L3 26V2Z" />

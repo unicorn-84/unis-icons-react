@@ -4,9 +4,9 @@ import { SVGProps } from 'react';
 const SvgIsreal = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={42}
-    height={30}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 42 30"
     {...props}
   >
     <g filter="url(#isreal_svg__a)">
@@ -50,10 +50,10 @@ const SvgIsreal = (props: SVGProps<SVGSVGElement>) => (
             />
           </mask>
           <g
-            mask="url(#isreal_svg__d)"
             fill="#3D58DB"
             fillRule="evenodd"
             clipRule="evenodd"
+            mask="url(#isreal_svg__d)"
           >
             <path d="M3 5v3h36V5H3Zm0 15v3h36v-3H3Zm12.804-3.061h10.549L21.13 8.62l-5.326 8.319Zm8.743-1.01h-6.9l3.473-5.47 3.427 5.47Z" />
             <path d="M15.672 11.076h10.594l-5.113 8.086-5.481-8.086Zm8.754.974h-6.744l3.44 5.481 3.304-5.48Z" />

@@ -4,12 +4,13 @@ import { SVGProps } from 'react';
 const SvgPercent = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={32}
-    height={32}
     fill="none"
+    stroke="currentColor"
+    aria-hidden="true"
+    viewBox="0 0 32 32"
     {...props}
   >
-    <g clipPath="url(#percent_svg__a)" stroke="currentColor" strokeWidth={2}>
+    <g stroke="#101828" strokeWidth={2} clipPath="url(#percent_svg__a)">
       <path strokeLinecap="round" strokeLinejoin="round" d="M25 7 7 25" />
       <path
         strokeMiterlimit={10}

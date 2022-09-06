@@ -4,9 +4,9 @@ import { SVGProps } from 'react';
 const SvgTbAllianceLogo = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={215}
-    height={54}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 215 54"
     {...props}
   >
     <path

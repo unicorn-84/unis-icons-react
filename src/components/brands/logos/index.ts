@@ -1,4 +1,4 @@
-export { default as Logo3M } from './3MLogo';
+export { default as Svg3MLogo } from './3MLogo';
 export { default as ActiveDirectoryLogo } from './ActiveDirectoryLogo';
 export { default as AdaLogo } from './AdaLogo';
 export { default as AdobeLogo } from './AdobeLogo';

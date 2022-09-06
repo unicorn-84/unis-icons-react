@@ -4,9 +4,9 @@ import { SVGProps } from 'react';
 const SvgLastPassLogo = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={264}
-    height={45}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 264 45"
     {...props}
   >
     <path

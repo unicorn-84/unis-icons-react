@@ -4,17 +4,18 @@ import { SVGProps } from 'react';
 const SvgFloppyDiskBack = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={32}
-    height={32}
     fill="none"
+    stroke="currentColor"
+    aria-hidden="true"
+    viewBox="0 0 32 32"
     {...props}
   >
     <g
-      clipPath="url(#floppy-disk-back_svg__a)"
-      stroke="currentColor"
+      stroke="#101828"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
+      clipPath="url(#floppy-disk-back_svg__a)"
     >
       <path d="M5 11.412V26a1 1 0 0 0 1 1h20a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1H11.412a.987.987 0 0 0-.7.288l-5.424 5.425a.988.988 0 0 0-.288.7v0Z" />
       <path d="M16 22a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm-4-12h8V5" />

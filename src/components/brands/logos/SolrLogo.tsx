@@ -4,9 +4,9 @@ import { SVGProps } from 'react';
 const SvgSolrLogo = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={145}
-    height={80}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 145 80"
     {...props}
   >
     <path

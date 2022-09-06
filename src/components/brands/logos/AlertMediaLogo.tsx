@@ -4,9 +4,9 @@ import { SVGProps } from 'react';
 const SvgAlertMediaLogo = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={225}
-    height={53}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 225 53"
     {...props}
   >
     <path

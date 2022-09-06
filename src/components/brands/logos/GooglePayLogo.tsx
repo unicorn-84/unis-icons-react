@@ -4,9 +4,9 @@ import { SVGProps } from 'react';
 const SvgGooglePayLogo = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={134}
-    height={53}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 134 53"
     {...props}
   >
     <g clipPath="url(#google-pay-logo_svg__a)">

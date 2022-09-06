@@ -4,17 +4,18 @@ import { SVGProps } from 'react';
 const SvgFolderSimpleLock = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={32}
-    height={32}
     fill="none"
+    stroke="currentColor"
+    aria-hidden="true"
+    viewBox="0 0 32 32"
     {...props}
   >
     <g
-      clipPath="url(#folder-simple-lock_svg__a)"
-      stroke="currentColor"
+      stroke="#101828"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
+      clipPath="url(#folder-simple-lock_svg__a)"
     >
       <path d="M14 26H5a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h6.662c.217 0 .427.071.6.2l3.476 2.6c.173.129.383.2.6.2H27a1 1 0 0 1 1 1v2" />
       <path d="M28 20.5h-9V26h9v-5.5Zm-7 0V19a2.5 2.5 0 0 1 5 0v1.5" />

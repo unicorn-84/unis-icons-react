@@ -6,9 +6,9 @@ const SvgDrugEnforcementAdministrationLogo = (
 ) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={116}
-    height={116}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 116 116"
     {...props}
   >
     <path

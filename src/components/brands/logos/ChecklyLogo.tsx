@@ -4,9 +4,9 @@ import { SVGProps } from 'react';
 const SvgChecklyLogo = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={198}
-    height={61}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 198 61"
     {...props}
   >
     <path

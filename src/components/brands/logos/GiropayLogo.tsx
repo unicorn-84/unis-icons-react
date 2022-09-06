@@ -4,9 +4,9 @@ import { SVGProps } from 'react';
 const SvgGiropayLogo = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={173}
-    height={68}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 173 68"
     {...props}
   >
     <path

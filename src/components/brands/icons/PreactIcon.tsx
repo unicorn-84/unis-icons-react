@@ -4,9 +4,9 @@ import { SVGProps } from 'react';
 const SvgPreactIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={48}
-    height={48}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 48 48"
     {...props}
   >
     <path fill="#673AB8" d="m23.999 6 15.589 9v18l-15.589 9L8.41 33V15L24 6Z" />

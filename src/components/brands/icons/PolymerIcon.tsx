@@ -4,9 +4,9 @@ import { SVGProps } from 'react';
 const SvgPolymerIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={48}
-    height={48}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 48 48"
     {...props}
   >
     <path fill="#FF4081" d="M28 37.856 12 10.144h8l16 27.712h-8Z" />

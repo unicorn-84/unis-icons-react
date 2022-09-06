@@ -4,17 +4,18 @@ import { SVGProps } from 'react';
 const SvgArticleMedium = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={32}
-    height={32}
     fill="none"
+    stroke="currentColor"
+    aria-hidden="true"
+    viewBox="0 0 32 32"
     {...props}
   >
     <g
-      clipPath="url(#article-medium_svg__a)"
-      stroke="currentColor"
+      stroke="#101828"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
+      clipPath="url(#article-medium_svg__a)"
     >
       <path d="M3.013 7h2m9.999 0h2M3.013 17h3m7.999 0h3M21 13h9m-8.988 4h9M9 21h21M9 25h21M5.013 17V7l5 8 5-8v10M3 7h2m10 0h2M3 17h3m8 0h3m4-4h9m-9 4h9M9 21h21M9 25h21" />
       <path d="M5 17V7l5 8 5-8v10" />

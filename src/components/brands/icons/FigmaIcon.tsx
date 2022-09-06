@@ -4,9 +4,9 @@ import { SVGProps } from 'react';
 const SvgFigmaIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={48}
-    height={48}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 48 48"
     {...props}
   >
     <g clipPath="url(#figma-icon_svg__a)">

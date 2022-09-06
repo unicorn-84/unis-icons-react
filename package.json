@@ -39,9 +39,7 @@
     "semantic-release": "semantic-release",
     "cm": "cz",
     "prepare": "husky install",
-    "svgr": "svgr --config-file ./src/svgr/.svgrrc.cjs -- $ICONS_DIR",
-    "generate": "dotenv-run-script svgr && node ./utils/createDemo && npx prettier ./demo/src/App.tsx -w",
-    "make": "node ./utils/editIcons && yarn generate"
+    "svgr": "svgr --config-file .svgrrc.cjs -- node_modules/unis-icons/lib"
   },
   "devDependencies": {
     "@svgr/cli": "6.3.1",
@@ -49,31 +47,24 @@
     "@types/react-dom": "18.0.6",
     "@typescript-eslint/eslint-plugin": "5.31.0",
     "@typescript-eslint/parser": "5.31.0",
-    "change-case": "4.1.2",
     "cz-conventional-changelog": "3.3.0",
-    "dotenv": "16.0.1",
-    "dotenv-run-script": "0.2.0",
     "eslint": "8.20.0",
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-jsx-a11y": "6.6.1",
     "eslint-plugin-prettier": "4.2.1",
     "eslint-plugin-react": "7.30.1",
     "husky": "8.0.1",
-    "latinize": "0.5.0",
     "prettier": "2.7.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "rimraf": "3.0.2",
     "semantic-release": "^19.0.5",
-    "svgo": "2.8.0",
-    "typescript": "4.7.4"
+    "typescript": "4.7.4",
+    "unis-icons": "1.5.1"
   },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
-  },
-  "dependencies": {
-    "camelcase": "7.0.0"
   }
 }

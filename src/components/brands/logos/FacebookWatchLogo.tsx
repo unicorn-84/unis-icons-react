@@ -4,9 +4,9 @@ import { SVGProps } from 'react';
 const SvgFacebookWatchLogo = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={304}
-    height={45}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 304 45"
     {...props}
   >
     <path

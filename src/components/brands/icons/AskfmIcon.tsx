@@ -4,9 +4,9 @@ import { SVGProps } from 'react';
 const SvgAskfmIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={48}
-    height={48}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 48 48"
     {...props}
   >
     <rect width={28} height={28} x={2} y={2} fill="#784589" rx={14} />

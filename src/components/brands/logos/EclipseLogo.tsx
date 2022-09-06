@@ -4,9 +4,9 @@ import { SVGProps } from 'react';
 const SvgEclipseLogo = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={228}
-    height={60}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 228 60"
     {...props}
   >
     <path fill="#F7941E" d="M138.646 4.957h-4.581v5.8h4.581v-5.8Z" />

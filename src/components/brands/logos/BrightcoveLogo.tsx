@@ -4,9 +4,9 @@ import { SVGProps } from 'react';
 const SvgBrightcoveLogo = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={250}
-    height={48}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 250 48"
     {...props}
   >
     <path fill="#08088C" d="M0 .604h250v46.875H0z" />

@@ -4,17 +4,18 @@ import { SVGProps } from 'react';
 const SvgArticleNyTimes = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={32}
-    height={32}
     fill="none"
+    stroke="currentColor"
+    aria-hidden="true"
+    viewBox="0 0 32 32"
     {...props}
   >
     <g
-      clipPath="url(#article-ny-times_svg__a)"
-      stroke="currentColor"
+      stroke="#101828"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
+      clipPath="url(#article-ny-times_svg__a)"
     >
       <path d="M20 13h10m-10 4h10m-10 4h10M9 25h21m-14.187-8.55A6 6 0 1 1 9.988 9m-.001 5.313v6.675" />
       <path d="M13.988 6.5a2.5 2.5 0 0 1 0 5l-8-5a2.5 2.5 0 0 0-.776 4.875" />

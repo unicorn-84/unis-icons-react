@@ -4,9 +4,9 @@ import { SVGProps } from 'react';
 const SvgMsOnenoteIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={48}
-    height={48}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 48 48"
     {...props}
   >
     <path fill="#5D29A1" d="M16 31h24v5a2 2 0 0 1-2 2H18a2 2 0 0 1-2-2v-5Z" />

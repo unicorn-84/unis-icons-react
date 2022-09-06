@@ -4,13 +4,13 @@ import { SVGProps } from 'react';
 const SvgAlgeria = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={42}
-    height={30}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 42 30"
     {...props}
   >
     <g filter="url(#algeria_svg__a)">
-      <g clipPath="url(#algeria_svg__b)" fillRule="evenodd" clipRule="evenodd">
+      <g fillRule="evenodd" clipPath="url(#algeria_svg__b)" clipRule="evenodd">
         <path fill="#F7FCFF" d="M21 2h18v24H21V2Z" />
         <path fill="#36A400" d="M3 2h18v24H3V2Z" />
         <path

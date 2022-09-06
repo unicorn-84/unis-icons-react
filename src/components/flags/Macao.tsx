@@ -4,9 +4,9 @@ import { SVGProps } from 'react';
 const SvgMacao = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={42}
-    height={30}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 42 30"
     {...props}
   >
     <g filter="url(#macao_svg__a)">
@@ -74,7 +74,7 @@ const SvgMacao = (props: SVGProps<SVGSVGElement>) => (
                 clipRule="evenodd"
               />
             </mask>
-            <g mask="url(#macao_svg__e)" fill="#F7FCFF">
+            <g fill="#F7FCFF" mask="url(#macao_svg__e)">
               <path
                 fillRule="evenodd"
                 d="M17.266 23.064h7.468v1.072h-7.468v-1.072Zm-3.064-1.604h14.362v.983H14.202v-.983Z"

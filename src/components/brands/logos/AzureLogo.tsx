@@ -4,9 +4,9 @@ import { SVGProps } from 'react';
 const SvgAzureLogo = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={183}
-    height={65}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 183 65"
     {...props}
   >
     <path

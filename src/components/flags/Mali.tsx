@@ -4,9 +4,9 @@ import { SVGProps } from 'react';
 const SvgMali = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={42}
-    height={30}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 42 30"
     {...props}
   >
     <g filter="url(#mali_svg__a)">
@@ -24,7 +24,7 @@ const SvgMali = (props: SVGProps<SVGSVGElement>) => (
         >
           <path fill="#fff" d="M3 2h36v24H3z" />
         </mask>
-        <g mask="url(#mali_svg__c)" fillRule="evenodd" clipRule="evenodd">
+        <g fillRule="evenodd" clipRule="evenodd" mask="url(#mali_svg__c)">
           <path fill="#FBCD17" d="M14.25 2h13.5v24h-13.5V2Z" />
           <path fill="#E11C1B" d="M27.75 2H39v24H27.75V2Z" />
           <path fill="#0B9E7A" d="M3 2h11.25v24H3V2Z" />

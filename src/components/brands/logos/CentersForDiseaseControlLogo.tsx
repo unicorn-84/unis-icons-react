@@ -4,9 +4,9 @@ import { SVGProps } from 'react';
 const SvgCentersForDiseaseControlLogo = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={121}
-    height={98}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 121 98"
     {...props}
   >
     <path fill="#fff" d="M3.025 5.277h114.95v87.046H3.025V5.277Z" />

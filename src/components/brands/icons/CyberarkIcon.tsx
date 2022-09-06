@@ -4,9 +4,9 @@ import { SVGProps } from 'react';
 const SvgCyberarkIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={48}
-    height={48}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 48 48"
     {...props}
   >
     <path fill="#4E8DCB" d="M24 6 8.383 15.023l8.033 4.616L24 15.262V6Z" />

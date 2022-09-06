@@ -4,9 +4,9 @@ import { SVGProps } from 'react';
 const SvgTailwindCssLogo = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={284}
-    height={42}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 284 42"
     {...props}
   >
     <path

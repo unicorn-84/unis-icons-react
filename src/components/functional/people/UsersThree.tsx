@@ -4,20 +4,19 @@ import { SVGProps } from 'react';
 const SvgUsersThree = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={32}
-    height={32}
     fill="none"
+    stroke="currentColor"
+    aria-hidden="true"
+    viewBox="0 0 32 32"
     {...props}
   >
     <path
-      stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
       d="M16 22.5a5 5 0 1 0 0-10 5 5 0 0 0 0 10Zm8.5-8a7.475 7.475 0 0 1 6 3m-29 0a7.474 7.474 0 0 1 6-3"
     />
     <path
-      stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}

@@ -4,9 +4,9 @@ import { SVGProps } from 'react';
 const SvgCPanelLogo = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={217}
-    height={55}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 217 55"
     {...props}
   >
     <path

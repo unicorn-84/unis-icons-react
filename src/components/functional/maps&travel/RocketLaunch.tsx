@@ -4,20 +4,19 @@ import { SVGProps } from 'react';
 const SvgRocketLaunch = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={32}
-    height={32}
     fill="none"
+    stroke="currentColor"
+    aria-hidden="true"
+    viewBox="0 0 32 32"
     {...props}
   >
     <path
-      stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
       d="M11.762 23.075c-1.425 4.238-7.075 4.238-7.075 4.238s0-5.65 4.238-7.075m15.563-7.063L16 21.663 10.338 16l8.487-8.488c3.213-3.212 6.425-3.174 7.8-2.974a.975.975 0 0 1 .837.837c.2 1.375.238 4.588-2.974 7.8Z"
     />
     <path
-      stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}

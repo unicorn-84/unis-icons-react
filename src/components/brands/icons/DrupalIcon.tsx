@@ -4,9 +4,9 @@ import { SVGProps } from 'react';
 const SvgDrupalIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={48}
-    height={48}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 48 48"
     {...props}
   >
     <circle cx={24.5} cy={24.5} r={16.5} fill="#0678BE" />

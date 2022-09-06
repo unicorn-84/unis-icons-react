@@ -4,9 +4,9 @@ import { SVGProps } from 'react';
 const SvgAmazonAlexaLogo = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={265}
-    height={46}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 265 46"
     {...props}
   >
     <path

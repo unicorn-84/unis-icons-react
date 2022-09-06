@@ -4,17 +4,18 @@ import { SVGProps } from 'react';
 const SvgNotePencil = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={32}
-    height={32}
     fill="none"
+    stroke="currentColor"
+    aria-hidden="true"
+    viewBox="0 0 32 32"
     {...props}
   >
     <g
-      clipPath="url(#note-pencil_svg__a)"
-      stroke="currentColor"
+      stroke="#101828"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
+      clipPath="url(#note-pencil_svg__a)"
     >
       <path d="M16 20h-4v-4L24 4l4 4-12 12Zm5-13 4 4" />
       <path d="M27 15v11a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h11" />

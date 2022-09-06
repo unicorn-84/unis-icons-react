@@ -4,9 +4,9 @@ import { SVGProps } from 'react';
 const SvgSitecoreLogo = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={220}
-    height={53}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 220 53"
     {...props}
   >
     <path

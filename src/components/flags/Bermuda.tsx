@@ -4,9 +4,9 @@ import { SVGProps } from 'react';
 const SvgBermuda = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={42}
-    height={30}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 42 30"
     {...props}
   >
     <g filter="url(#bermuda_svg__a)">
@@ -112,9 +112,9 @@ const SvgBermuda = (props: SVGProps<SVGSVGElement>) => (
                 />
               </mask>
               <g
-                mask="url(#bermuda_svg__f)"
                 fillRule="evenodd"
                 clipRule="evenodd"
+                mask="url(#bermuda_svg__f)"
               >
                 <path
                   fill="#fff"

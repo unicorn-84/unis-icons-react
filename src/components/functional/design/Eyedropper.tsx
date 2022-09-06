@@ -4,20 +4,19 @@ import { SVGProps } from 'react';
 const SvgEyedropper = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={32}
-    height={32}
     fill="none"
+    stroke="currentColor"
+    aria-hidden="true"
+    viewBox="0 0 32 32"
     {...props}
   >
     <path
-      stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
       d="m22.475 14.475.612.613a2.012 2.012 0 0 1 0 2.825l-.875.875a1 1 0 0 1-1.425 0l-7.575-7.575a1 1 0 0 1 0-1.426l.875-.875a2.012 2.012 0 0 1 2.825 0l.613.613 3.45-3.45c1.35-1.35 3.55-1.425 4.925-.113a3.5 3.5 0 0 1 .075 5.013l-3.5 3.5Z"
     />
     <path
-      stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}

@@ -4,9 +4,9 @@ import { SVGProps } from 'react';
 const SvgOracleLogo = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={278}
-    height={42}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 278 42"
     {...props}
   >
     <path

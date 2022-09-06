@@ -4,9 +4,9 @@ import { SVGProps } from 'react';
 const SvgMediumLogo = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={257}
-    height={47}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 257 47"
     {...props}
   >
     <path

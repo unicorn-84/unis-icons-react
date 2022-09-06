@@ -4,9 +4,9 @@ import { SVGProps } from 'react';
 const SvgDemocraticRepublicOfTheCongo = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={42}
-    height={30}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 42 30"
     {...props}
   >
     <g filter="url(#democratic-republic-of-the-congo_svg__a)">

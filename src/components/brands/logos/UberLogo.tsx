@@ -4,9 +4,9 @@ import { SVGProps } from 'react';
 const SvgUberLogo = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={170}
-    height={69}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 170 69"
     {...props}
   >
     <path

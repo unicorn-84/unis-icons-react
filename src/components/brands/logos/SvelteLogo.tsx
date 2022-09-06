@@ -4,9 +4,9 @@ import { SVGProps } from 'react';
 const SvgSvelteLogo = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={206}
-    height={57}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 206 57"
     {...props}
   >
     <path

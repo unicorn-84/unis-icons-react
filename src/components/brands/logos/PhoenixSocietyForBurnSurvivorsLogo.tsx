@@ -6,9 +6,9 @@ const SvgPhoenixSocietyForBurnSurvivorsLogo = (
 ) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={241}
-    height={49}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 241 49"
     {...props}
   >
     <path

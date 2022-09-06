@@ -4,9 +4,9 @@ import { SVGProps } from 'react';
 const SvgAruba = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={42}
-    height={30}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 42 30"
     {...props}
   >
     <g filter="url(#aruba_svg__a)">
@@ -49,7 +49,7 @@ const SvgAruba = (props: SVGProps<SVGSVGElement>) => (
               clipRule="evenodd"
             />
           </mask>
-          <g mask="url(#aruba_svg__d)" fillRule="evenodd" clipRule="evenodd">
+          <g fillRule="evenodd" clipRule="evenodd" mask="url(#aruba_svg__d)">
             <path
               fill="red"
               stroke="#F7FCFF"

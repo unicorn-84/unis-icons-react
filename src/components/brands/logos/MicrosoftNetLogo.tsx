@@ -4,9 +4,9 @@ import { SVGProps } from 'react';
 const SvgMicrosoftNetLogo = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={108}
-    height={109}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 108 109"
     {...props}
   >
     <path

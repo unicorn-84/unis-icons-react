@@ -4,17 +4,18 @@ import { SVGProps } from 'react';
 const SvgCoins = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={32}
-    height={32}
     fill="none"
+    stroke="currentColor"
+    aria-hidden="true"
+    viewBox="0 0 32 32"
     {...props}
   >
     <g
-      clipPath="url(#coins_svg__a)"
-      stroke="currentColor"
+      stroke="#101828"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
+      clipPath="url(#coins_svg__a)"
     >
       <path d="M12 15c5.523 0 10-2.015 10-4.5S17.523 6 12 6 2 8.015 2 10.5 6.477 15 12 15Z" />
       <path d="M2 10.5v5C2 17.988 6.475 20 12 20s10-2.012 10-4.5v-5M8 14.625v5" />

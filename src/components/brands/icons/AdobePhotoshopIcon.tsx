@@ -4,9 +4,9 @@ import { SVGProps } from 'react';
 const SvgAdobePhotoshopIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={48}
-    height={48}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 48 48"
     {...props}
   >
     <rect width={36} height={36} x={5.999} y={6} fill="#001E36" rx={8} />

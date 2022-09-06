@@ -4,9 +4,9 @@ import { SVGProps } from 'react';
 const SvgCrossBrowserTestingIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={48}
-    height={48}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 48 48"
     {...props}
   >
     <path fill="#50E4EA" d="M41.016 6.986H6.984v34.032h34.032V6.986Z" />

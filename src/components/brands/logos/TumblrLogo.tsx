@@ -4,9 +4,9 @@ import { SVGProps } from 'react';
 const SvgTumblrLogo = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={224}
-    height={52}
     fill="none"
+    aria-hidden="true"
+    viewBox="0 0 224 52"
     {...props}
   >
     <path

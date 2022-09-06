@@ -4,20 +4,19 @@ import { SVGProps } from 'react';
 const SvgMaskSad = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={32}
-    height={32}
     fill="none"
+    stroke="currentColor"
+    aria-hidden="true"
+    viewBox="0 0 32 32"
     {...props}
   >
     <path
-      stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
       d="M18.262 15a3 3 0 0 0 4.476 0M9.262 15a3 3 0 0 0 4.476 0m5.575 8a5.987 5.987 0 0 0-6.625 0"
     />
     <path
-      stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}

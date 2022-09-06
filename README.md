@@ -8,7 +8,7 @@
 
 These are ReactJS icon components.
 
-Based on [🧜‍♀️ Moja UI - FREE Top UI Kit & Design system](https://www.figma.com/community/file/1108679668074690379)
+Based on [🦄 Unis Icons - A set of SVG icons for UI development.](https://www.npmjs.com/package/unis-icons)
 
 ## Getting started
 

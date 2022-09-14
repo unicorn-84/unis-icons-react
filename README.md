@@ -17,13 +17,13 @@ Based on [🦄 Unis Icons - A set of SVG icons for UI development.](https://www.
 Using npm:
 
 ```bash
-npm install unis-icons-react
+npm install -D unis-icons-react
 ```
 
 Using yarn:
 
 ```bash
-yarn add unis-icons-react
+yarn add -D unis-icons-react
 ```
 
 ### Usage
